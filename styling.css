@@ -97,8 +97,8 @@ body{
 
 .task_card{
     display: flex;
-    justify-content: space-between;      /* This is one fix*/
-    align-items: center;                 /* This is another fix for making action buttons on right and text on the left side*/
+    justify-content: space-between;      
+    align-items: center;                 
     background-color: white;
     border: 2px solid #FFF3E0;
     border-radius: 20px;
@@ -146,20 +146,20 @@ body{
 
 .footer{
   display: flex;
-  justify-content: center;   /* center items horizontally */
-  align-items: center;       /* center items vertically */
-  position: fixed;           /* fixes it relative to the viewport */
-  bottom: 0;                 /* sticks to the bottom */
+  justify-content: center;   
+  align-items: center;       
+  position: fixed;          
+  bottom: 0;                
   left: 0;
-  width: 100%;               /* full width */
+  width: 100%;               
   height: 105px;
 }
 
 .progress_card{
     display: flex block;
-    flex-direction: column;           /*This is one fix*/
-    align-items: flex-start;          /*This is another fix*/
-    justify-content: flex-start;      /*This is the third fix*/
+    flex-direction: column;           
+    align-items: flex-start;          
+    justify-content: flex-start;      
     height: 75px;
     width: 95%;
     background-color: white;
@@ -167,7 +167,7 @@ body{
     margin-bottom: 30px;
     border: 2px solid #FFF3E0;
     padding-top: 10px;
-    padding-left: 36.5px;             /*This is fourth fix for appearing the progress text ont he left side and above the progress bar*/ 
+    padding-left: 36.5px;              
     padding-right: 15px; 
 }                  
 
@@ -182,10 +182,11 @@ body{
 
 .bar{
     width: 0%;
-    max-width: 95%;             /* This is the fix for making the progress bar upto 95% width maximum*/
+    max-width: 95%;             
     height: 8px;
     background-color: #F48FB1;
     border-radius: 5px;
     transition: width 0.3s ease;
     margin-top: 15px;
+
 }
