@@ -71,9 +71,9 @@ addbut.addEventListener( "click", () => {
     const completebut = document.createElement("button");
     completebut.textContent = "✔"
     completebut.addEventListener( "click" , () => {
-        if (!text.classList.contains("completed")) {          //This is one fix of the whole button function  
-            text.classList.add("completed");                  //because when we are just counting the numbers
-            text.style.textDecoration = "line-through";       //the more number of times we click the percentage just increases
+        if (!text.classList.contains("completed")) {          
+            text.classList.add("completed");                  
+            text.style.textDecoration = "line-through";       
             text.style.color = "#888888";
             complete_task++;
         }
@@ -123,4 +123,5 @@ addbut.addEventListener( "click", () => {
 
     input.value ="";
     update_progress();
+
 });
